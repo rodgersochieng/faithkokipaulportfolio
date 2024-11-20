@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import avatar from '../avatar/avatar2.png';
+// import avatar from '../avatar/avatar2.png';
 
 function AboutAndContact() {
   const [notification, setNotification] = useState('');
@@ -22,27 +22,21 @@ function AboutAndContact() {
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <div className="text-left max-w-prose mx-auto mb-12">
           <p className="mb-4">
-          I have honed my expertise through a combination of rigorous programs and hands-on experiences designed to develop a comprehensive understanding of both business and technology. As a graduate of the McKinsey Forward Program, I’ve gained critical thinking and problem-solving strategies tailored for the future of business, with a focus on being an effective communicator and resilient leader.
+          With a background in both technology and business, I have gained extensive experience across various sectors, helping organizations optimize their operations and achieve measurable results. I have a strong foundation in project management, security, customer relations, and technical sales, allowing me to adapt quickly to new challenges and contribute meaningfully to team success.
           </p>
           <p className="mb-4">
-          Through LinkedIn Learning’s Digital Marketing course, I’ve learned how to leverage digital platforms and tools to create targeted strategies that drive business growth, build brand awareness, and enhance customer engagement. This knowledge empowers me to help businesses refine their marketing efforts and reach their target audiences more effectively.
+          Through my role at CHET Holdings and Corporate Solutions, I developed skills in surveillance, behavioral analysis, and risk management, driving improvements in security and compliance across multiple projects. I also helped reduce theft incidents by 30% and increase fraud resolution rates by 40%, proving my ability to handle complex situations under pressure.
           </p>
           <p className="mb-4">
-          In addition, my IBM Enterprise Design Thinking Practitioner certification equipped me with the tools to design products and services that meet real user needs, delivering exceptional user experiences while aligning with business objectives. This focus on user-centric design allows me to bridge business goals with technical development in ways that maximize both efficiency and impact.
+          My time at M-Gas as a Technical Sales Representative refined my ability to manage customer relationships, ensuring high satisfaction and repeat business while addressing customer concerns with efficiency and empathy. I’ve also had the opportunity to work with various tech solutions like React and AI tools, allowing me to develop a keen understanding of how technology can enhance business performance.
           </p>
           <p className="mb-4">
-          At Moringa School, I completed a comprehensive Software Engineering course, which included both front-end and back-end development. I am proficient in modern technologies such as React, JavaScript, Ruby on Rails, and database management systems like MySQL, PostgreSQL, and SQLite. These technical skills allow me to turn business ideas into tangible digital solutions that are scalable, functional, and user-friendly.
-          </p>
-          <p className="mb-4">
-          Beyond my technical proficiency, I am deeply invested in creating business strategies that prioritize user experience and business outcomes. By utilizing user-centered design, UX research, and ideation, I ensure that the solutions I build not only solve problems but also enhance the overall experience for users. My experience in digital marketing, brand strategy, and business operations ensures that I always approach each project with the long-term business impact in mind.
-          </p>
-          <p>
-          Whether working with startups or established companies, my mission is to help businesses evolve by combining design thinking, technical development, and business strategy. I aim to provide innovative solutions that drive operational efficiencies, elevate user experiences, and deliver measurable results.
-          </p>
+          Having completed programs in Virtual Assistance and Project Management, I’ve also honed my soft skills, including leadership, communication, and multitasking, which enable me to work effectively in fast-paced, team-oriented environments. These experiences have shaped me into a well-rounded professional, eager to bring my skills and expertise to any new project or challenge.
+          </p>         
         </div>
       </div>
 
-      <div className="text-center">
+      {/* <div className="text-center">
         <h2 className="text-3xl font-bold mb-6">You wanna roast me ?</h2>
         <div className="flex flex-col md:flex-row items-center justify-center">
           <img src={avatar} alt="Avatar" className="w-49 h-48 rounded-full object-cover mb-4 md:mb-0 md:mr-6"/>
@@ -77,7 +71,7 @@ function AboutAndContact() {
             {notification}
           </div>
         )}
-      </div>
+      </div> */}
     </section>
   );
 }

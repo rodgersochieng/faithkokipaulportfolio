@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         emeraldEssence: {
           light: '6B8F71',
-          DEFAULT: '#0D2B1D',
+          DEFAULT: '#07363c',
           dark: '#0D2B1D'
         },
       },

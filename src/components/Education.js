@@ -1,65 +1,61 @@
 import React from "react";
-import ibm from '../avatar/ibm.png'; 
-import mckinsey from '../avatar/mckinsey-forward-program.png'
 import linkedin from '../avatar/linkedin.png'
-import moringa from '../avatar/moringa.png'
-import ffa from '../avatar/ffa.png'
-import uop from '../avatar/uop.png'
 import ALX from '../avatar/ALX.png' 
+import coursera from '../avatar/Courseralogo1.svg.png'
+import mmu from '../avatar/MMU.png'
 
 
-const certificates = [
-    {
-        institution: 'University of the People',
-        title: 'BSc. Computer Science',
-        description: "I’m currently pursuing my BSc. in Computer Science at the University of the People, and let me tell you, it’s been an exciting journey so far. I’m getting comfortable with code that doesn’t make me cry… most of the time. From programming to algorithms, I’m diving deep into the tech world and loving every minute of it (well, almost every minute). It’s like being in a constant state of “I can’t believe I’m learning this” and 'Oh wow, I just fixed that bug!'",
-        skills: ['Ongoing python programming language','ongoing programs'],
-        image: uop
-      },
+const certificates = [   
       {
         institution: 'ALX Africa',
         title: 'Virtual Assistant',
-        description: "I’m a graduate of the ALX Africa Virtual Assistant Program, and let’s just say—if you need someone to keep your life organized without losing their mind in the process, I’m your person. I’ve got the skills to keep your inbox from overflowing, your calendar from becoming a hot mess, and your appointments running like clockwork. Honestly, I might be the superhero of administrative support... without the cape (though I do have a killer sense of timing).",
+        description: "I’m a graduate of the ALX Africa Virtual Assistant Program, and let’s just say if you need someone to keep your life organized without losing their mind in the process, I’m your person. I’ve got the skills to keep your inbox from overflowing, your calendar from becoming a hot mess, and your appointments running like clockwork. Honestly, I might be the superhero of administrative support... without the cape (though I do have a killer sense of timing).",
         skills: ['Email Management & Correspondence','Calendar & Appointment Management','Customer Support & Client Relations','Social Media Management','Data Entry & Record Keeping','Document Preparation & Editing','Project Coordination','Online Research & Information Gathering','Multitasking & Time Management','Problem Solving & Adaptability'],
         image: ALX
-      },
-    {
-        institution: '54 Collective',
-        title: 'Entreprenuership Building and Launching a Startup',
-        description: "So, here’s a fun fact: I didn’t just learn about startups; I helped launch one. As a graduate of Founders Factory Africa (now rebranded as 54Collective), I got my hands dirty in the wild, unpredictable world of entrepreneurship. From scribbling down ideas to seeing them come to life, I had a front-row seat to the entire rollercoaster ride. And trust me, I’ve picked up a few tricks that could make even the scrappiest of startups feel like a lean, mean business machine.  My time at 54Collective taught me to handle everything from startup strategy to launch support. I learned the importance of market research (and how to tell when the numbers are actually telling a story), perfected the art of pitching without breaking into a cold sweat, and became the go-to person for making sure clients and customers feel like VIPs. In startup life, “wearing multiple hats” is an understatement, but it turns out I look pretty good in all of them ",
-        skills: ['Startup Strategy & Launch Support','Market Research & Insights','Pitching & Fundraising Assistance','Customer & Client Relationship Management','Team Collaboration & Coordination','Data & Reporting','Technology Integration & Tools','Problem Solving & Critical Thinking','Adaptability & Growth Mindset'],
-        image: ffa
-      },
-    {
-        institution: 'Moringa school',
-        title: 'Software Engineering',
-        description: "I’ve completed the Software Engineering Course from Moringa School, which was like a boot camp for building digital worlds. This wasn’t just any course—it covered both Back-End and Front-End technologies, so now I’m as comfortable wrangling databases as I am designing slick user interfaces. Oh, and did I mention it included some content from Flatiron School? That’s right, I got the best of both worlds. ",
-        skills: ['Web development','React','Javascript','Ruby/Rails','Mysql','sqlite','postgress','Empathy', 'Figma','User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UI/UX'],
-        image: moringa
+      },   
+      {
+        institution: 'ALX Africa',
+        title: 'AI Career Essentials (AiCE)',
+        description: <p>Let’s face it AI is no longer just the cool thing in sci-fi movies; it’s a game-changer in the real world, and I’m here for it. I’m a graduate of the AiCE program by ALX, where I spent six weeks mastering the art of turning AI into my personal career sidekick. <br></br>
+
+        The program wasn’t just about learning the tech though I can now make ChatGPT do more tricks than a circus performer. It also sharpened my leadership, communication, and entrepreneurial chops. Basically, I’m the Swiss Army knife of young professionals, armed with AI smarts and a knack for turning chaos into well-oiled efficiency.
+        
+        Whether it's navigating complex tools, crafting innovative solutions, or just making your work life feel less like a stressful juggling act, I’ve got you covered. Think of me as the fusion of a tech wizard and a business strategist, minus the wizard hat (though I’m not ruling it out).
+        
+        </p>,
+        skills: ['Harnessing AI to supercharge workflows and productivity',"Communication that’s clearer than your morning coffee",'Leadership with a side of innovation',"Online research that goes beyond Googling 'how to…'",'Problem-solving','Turning challenges into creative opportunities',"Career growth hacks",],
+        image: ALX
+      }, 
+      {
+        institution: 'Linkedin Learning',
+        title: 'Soft Skills & Professional Development Training',
+        description: <p> Through LinkedIn Learning’s Soft Skills & Professional Development courses, I’ve gained a deeper understanding of the essential skills that make professionals thrive. These courses helped me fine-tune my communication, leadership, and interpersonal abilities, preparing me to work efficiently in any team or environment. <br></br>
+        From enhancing my emotional intelligence to navigating difficult conversations, I’ve learned how to balance professionalism with empathy, which is key to building strong working relationships and leading by example. The training focused not only on soft skills but also on practical strategies for career advancement, equipping me with tools to continuously improve and adapt in today’s fast-paced world.
+        </p>,
+        skills: ['Effective communication and active listening','Leadership and team collaboration','Time management and prioritization','Emotional intelligence and self-awareness','Conflict resolution and negotiation','Adaptability and flexibility in dynamic environments','Networking and relationship building','Presentation and public speaking'],
+        image: linkedin
       },
   {
-    institution: 'IBM',
-    title: 'Enterprise Design Thinking Practitioner',
-    description: <p>When it comes to Enterprise Design Thinking, I'm officially a card-carrying Practitioner (okay, it’s a badge, but still). Thanks to IBM, I’ve learned the ropes of turning business goals into user-friendly solutions that people actually want to use—not just click once and bounce. Now, I see every project as a chance to flex my design skills and sprinkle a little empathy into the process (who knew empathy could be a superpower?).With this training, I’m all about finding those “aha” moments where design meets real user needs. Need a digital experience that doesn’t just look good but actually makes sense?
+    institution: 'Coursera',
+    title: 'Project Management Essentials',
+    description: <p> Managing projects isn’t just about schedules and spreadsheets; it’s about understanding people, staying organized, and keeping things moving even when challenges arise.  <br></br>  Through Coursera’s Project Management program, I’ve gained the knowledge and tools to guide projects from start to finish with confidence and clarity.
+
+    This course taught me how to break down complex tasks, create realistic plans, and ensure everyone is working toward the same goal. Now, I’m equipped to manage timelines, communicate effectively, and handle any curveballs that might come up.
+    
+    Whether it’s organizing resources, coordinating teams, or making sure we stick to the plan, I’m ready to help deliver successful outcomes.
 
     </p>,
-    skills: ['Design', 'Empathy', 'Experience Design', 'Ideation', 'PWID-B0495200', 'User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UX'],
-    image: ibm
+    skills: ['Project planning and organization', 'Empathy', 'Time and deadline management', 'Effective communication and collaboration', 'Resource allocation and task prioritization', 'Risk identification and problem-solving', 'Stakeholder coordination and relationship management', 'Team leadership and motivation', 'Agile, Scrum and flexible project management approaches', 'Adaptability'],
+    image: coursera 
   },
   {
-    institution: 'McKinsey & Company',
-    title: 'McKinsey Forward Program',
-    description: <p>So, I earned my McKinsey Forward badge, which basically means I went through an intense online boot camp on how to thrive in the future of work (spoiler: it’s all about being adaptable and digitally savvy). I learned the famous McKinsey way of problem-solving, so now I’m pretty much a troubleshooting ninja. The course also threw in some solid communication skills—apparently, there’s more to it than just speaking loudly and hoping for the best.
-    They didn’t stop there, though. I got resilience training, a digital toolkit, and tips on how to stay cool and flexible no matter what chaos the workday throws my way</p>,
-    skills: ['Problem solving', 'Empathy', 'Experience Design', 'Ideation','User-Centered Design', 'User-Centric', 'User Experience', 'User Research', 'UX'],
-    image: mckinsey
-  },
-  {
-    institution: 'Linkedin Learning',
-    title: 'Digital Marketing',
-    description: 'I’ve recently completed the Digital Marketing Foundations course from LinkedIn Learning, and I’m ready to dive into the world of online marketing! While I’m still at the start of my digital marketing journey, I’ve already learned the ropes of using tools like Hootsuite and running Meta ads to get the word out. Think of me as the marketing rookie who’s gearing up to take on the digital world—one click at a time.',
-    skills: ['Digital marketing','hootsuite','Meta adds'],
-    image: linkedin
+    institution: 'Masinde Muliro University of Science and Technology',
+    title: 'Bachelor of Science in Criminology',
+    description: <p>Graduating from Masinde Muliro University of Science and Technology wasn’t just about earning a degree it was about understanding the complexities of society, justice, and human behavior. My studies gave me a deeper appreciation for the systems that maintain order and the challenges of navigating them. <br></br>
+
+    From analyzing criminal behavior to exploring the ethics of justice, I’ve developed critical thinking and problem-solving skills that help me see the bigger picture. Whether it’s examining patterns, working with diverse perspectives, or finding solutions to tough situations, I’m ready to contribute meaningfully in any space where logic and empathy are needed.</p>,
+    skills: ['Problem-solving in complex scenarios', 'Empathy', 'Critical thinking and analysis', 'Understanding legal and justice systems','Communication and interpersonal skills', 'Research and data interpretation', 'Conflict resolution', 'Ethical decision-making', 'Attention to detail in investigations','Ability to analyze and assess risks'],
+    image: mmu 
   },
   
 ];
