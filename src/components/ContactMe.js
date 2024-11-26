@@ -1,21 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 // import avatar from '../avatar/avatar2.png';
 
 function AboutAndContact() {
-  const [notification, setNotification] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Implement the email sending logic here, e.g., using an email API service like EmailJS
-    setNotification('This is my safe space haha. I can’t allow roasting 😂😂.');
-    setTimeout(() => {
-      setNotification('');
-    }, 5000);
-
-    // Reset the form
-    e.target.reset();
-  };
-
+  
   return (
     <section className="my-8 p-6">
       <div className="text-center">

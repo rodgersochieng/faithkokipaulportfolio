@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import ContactMe from './components/ContactMe';
+import CustomerReviews from "./components/CustomerReviews";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main className="max-w-4xl mx-auto p-6">
         <Introduction />
         <Skills />
+        <CustomerReviews />
         <Education />
         <Projects />
         <ContactMe />

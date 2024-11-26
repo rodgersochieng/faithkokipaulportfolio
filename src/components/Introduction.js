@@ -20,7 +20,7 @@ function Introduction() {
           and turning complexity into opportunity. I might not be solving crimes anymore, but I still bring the same sharp eye for detail 
           and strategic thinking to the table, whether it’s mitigating risks, improving workflows, or ensuring your business stays ahead 
           of the curve. Add a dash of AI and soft skills training, and you’ve got someone who can navigate challenges, streamline operations, 
-          and keep things running like a well-oiled machine. Got a tricky problem or an ambitious goal? Let’s figure it out together—minus the drama 
+          and keep things running like a well-oiled machine. Got a tricky problem or an ambitious goal? Let’s figure it out together minus the drama 
           but with all the results. 😊
         </p>
         
