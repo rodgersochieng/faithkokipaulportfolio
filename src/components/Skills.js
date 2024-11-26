@@ -1,7 +1,7 @@
 
 import React from "react";
-import { FaTrello, FaRobot, FaSlack, FaDropbox, FaGoogleDrive, FaMicrophone } from "react-icons/fa"; // Using FaMicrophone as a substitute
-import { SiGoogle, SiGooglemeet, SiGmail, SiGoogledocs, SiGooglesheets, SiGoogleforms, SiGoogleads, SiCanva, SiMicrosoftonenote, SiMicrosoftoutlook, SiMicrosoftteams, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoft, SiGooglecalendar, SiGoogleslides, SiZoom, SiHootsuite, SiAsana, SiZapier, SiLastpass, SiClickup, SiToggltrack } from "react-icons/si";
+import { FaTrello, FaSlack, FaDropbox, FaGoogleDrive, FaMicrophone } from "react-icons/fa"; // Using FaMicrophone as a substitute
+import { SiGoogle,SiGrammarly,SiNotion, SiOpenai,SiGooglemeet, SiGmail, SiGoogledocs, SiGooglesheets, SiGoogleforms, SiGoogleads, SiCanva, SiMicrosoftonenote, SiMicrosoftoutlook, SiMicrosoftteams, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoft, SiGooglecalendar, SiGoogleslides, SiZoom, SiHootsuite, SiAsana, SiZapier, SiLastpass, SiClickup, SiToggltrack } from "react-icons/si";
 import { MdOutlineCalendarToday } from "react-icons/md";  // Importing calendar icon
 
 function Skills() {
@@ -12,7 +12,7 @@ function Skills() {
         {/* Google */}
         <div className="flex flex-col items-center">
           <SiGoogle className="text-5xl" />
-          <span className="mt-2">Google</span>
+          <span className="mt-2">Google Workspace</span>
         </div>
         {/* Calendly */}
         <div className="flex flex-col items-center">
@@ -106,7 +106,7 @@ function Skills() {
         </div>       
         {/* ChatGPT */}
         <div className="flex flex-col items-center">
-          <FaRobot className="text-5xl" />
+          <SiOpenai className="text-5xl" />
           <span className="mt-2">ChatGPT</span>
         </div>       
         {/* Slack */}
@@ -163,6 +163,14 @@ function Skills() {
         <div className="flex flex-col items-center">
           <SiToggltrack className="text-5xl" />
           <span className="mt-2">Toggl Track</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiNotion className="text-5xl"/>
+          <span className="mt-2 text-white">Notion</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <SiGrammarly className="text-5xl"  />
+          <span className="mt-2 text-white">Grammarly</span>
         </div>
       </div>
     </section>
